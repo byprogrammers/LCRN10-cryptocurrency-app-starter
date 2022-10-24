@@ -22,7 +22,6 @@
 		3B27C46DE51C49AA80F184C8 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28519B831ECD4F319BCBCEBA /* RobotoCondensed-Regular.ttf */; };
 		3F6AEC2D41294C83A6E43A57 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB709C9F1D1F48779817D2F8 /* Roboto-Regular.ttf */; };
 		40C14406C8BF488597CFD89B /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96D4A84743394A41B6D62AFB /* RobotoCondensed-Italic.ttf */; };
-		44D5B7CA00285D59C4979497 /* libPods-CryptocurrencyApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E747D19A5D32209A0DAD2351 /* libPods-CryptocurrencyApp-tvOS.a */; };
 		4DB7C966892F48BFBD5AABB1 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37098DFAE39D43F890E4BD48 /* Roboto-LightItalic.ttf */; };
 		51796180171642D993DF3128 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDE1F5E78D4C44FCAA2C2257 /* Roboto-Bold.ttf */; };
 		56A002065C1F43D3BED70995 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1248A46985541418332E49A /* Roboto-Thin.ttf */; };
@@ -32,7 +31,6 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8578CD76F26042AEA26556B7 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1DBE164A4814B75A835E1FB /* RobotoCondensed-BoldItalic.ttf */; };
 		8D07340E09324714B854AE43 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9841F7EEAA6B4E419E8D5C5F /* Roboto-MediumItalic.ttf */; };
-		95DB5998BF63393B8F763ADD /* libPods-CryptocurrencyApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F121E3F07EBC2C090B38C46 /* libPods-CryptocurrencyApp-tvOSTests.a */; };
 		9925EF4A92094BF88D92331D /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A2D5372044ECEAFE9A81C /* RobotoCondensed-Light.ttf */; };
 		AEB7D2080C6C4B4F98087361 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9CBAB7D9DE140928AF71CFF /* Roboto-ThinItalic.ttf */; };
 		BF592486270C9A52006827A3 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF592485270C9A51006827A3 /* libswiftWebKit.tbd */; };
@@ -64,7 +62,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CryptocurrencyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptocurrencyAppTests.m; sourceTree = "<group>"; };
 		030C5E7BA5EE496FA4F76BC7 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		0ADF82F205EEB5FC0818FD0D /* Pods-CryptocurrencyApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptocurrencyApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptocurrencyApp-tvOSTests/Pods-CryptocurrencyApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CryptocurrencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptocurrencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CryptocurrencyApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CryptocurrencyApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -72,20 +69,16 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CryptocurrencyApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CryptocurrencyApp/main.m; sourceTree = "<group>"; };
 		28519B831ECD4F319BCBCEBA /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
-		2BE6A9DDB4D0EE368B69CEFE /* Pods-CryptocurrencyApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptocurrencyApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CryptocurrencyApp-tvOS/Pods-CryptocurrencyApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2CDC8FC456E136E7420BF5BD /* Pods-CryptocurrencyApp-CryptocurrencyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptocurrencyApp-CryptocurrencyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptocurrencyApp-CryptocurrencyAppTests/Pods-CryptocurrencyApp-CryptocurrencyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* CryptocurrencyApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptocurrencyApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* CryptocurrencyApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptocurrencyApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F7C4D72F3C4E39844CB8A4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		37098DFAE39D43F890E4BD48 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		39AAA63D6C46429D61B53B08 /* Pods-CryptocurrencyApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptocurrencyApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CryptocurrencyApp-tvOSTests/Pods-CryptocurrencyApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		49656D36B5934EDA909D6D53 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		50D84B8BA25C4914BB31C8D1 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		5A2E66CAF1AB4AB987AC4905 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		6500BEC5DEB64FD99E4D9058 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		67D1BE72E399FDC720C5C380 /* Pods-CryptocurrencyApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptocurrencyApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CryptocurrencyApp-tvOS/Pods-CryptocurrencyApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		78F736F9D34F42B3B89DA955 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		7F121E3F07EBC2C090B38C46 /* libPods-CryptocurrencyApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptocurrencyApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CryptocurrencyApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5D1B258FCFE015F3427996 /* libPods-CryptocurrencyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptocurrencyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D4A84743394A41B6D62AFB /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
@@ -98,7 +91,6 @@
 		D1248A46985541418332E49A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		E1DBE164A4814B75A835E1FB /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E48D8E23EED077B49AD43257 /* libPods-CryptocurrencyApp-CryptocurrencyAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptocurrencyApp-CryptocurrencyAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E747D19A5D32209A0DAD2351 /* libPods-CryptocurrencyApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptocurrencyApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EDE1F5E78D4C44FCAA2C2257 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -129,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D5B7CA00285D59C4979497 /* libPods-CryptocurrencyApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +128,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DB5998BF63393B8F763ADD /* libPods-CryptocurrencyApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,10 +172,6 @@
 				B7AD69B9C440D05705516A56 /* Pods-CryptocurrencyApp.release.xcconfig */,
 				2CDC8FC456E136E7420BF5BD /* Pods-CryptocurrencyApp-CryptocurrencyAppTests.debug.xcconfig */,
 				FC02FD7C2AA58091C46880DC /* Pods-CryptocurrencyApp-CryptocurrencyAppTests.release.xcconfig */,
-				2BE6A9DDB4D0EE368B69CEFE /* Pods-CryptocurrencyApp-tvOS.debug.xcconfig */,
-				67D1BE72E399FDC720C5C380 /* Pods-CryptocurrencyApp-tvOS.release.xcconfig */,
-				0ADF82F205EEB5FC0818FD0D /* Pods-CryptocurrencyApp-tvOSTests.debug.xcconfig */,
-				39AAA63D6C46429D61B53B08 /* Pods-CryptocurrencyApp-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -198,8 +184,6 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				8B5D1B258FCFE015F3427996 /* libPods-CryptocurrencyApp.a */,
 				E48D8E23EED077B49AD43257 /* libPods-CryptocurrencyApp-CryptocurrencyAppTests.a */,
-				E747D19A5D32209A0DAD2351 /* libPods-CryptocurrencyApp-tvOS.a */,
-				7F121E3F07EBC2C090B38C46 /* libPods-CryptocurrencyApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -313,7 +297,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CryptocurrencyApp-tvOS" */;
 			buildPhases = (
-				AC5C4317885471049C253EC5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -333,7 +316,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CryptocurrencyApp-tvOSTests" */;
 			buildPhases = (
-				FB35D294DF0A3DECEA5AB016 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -483,11 +465,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CryptocurrencyApp-CryptocurrencyAppTests/Pods-CryptocurrencyApp-CryptocurrencyAppTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -556,28 +544,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC5C4317885471049C253EC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CryptocurrencyApp-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D8C492A86A0E363759937760 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,11 +551,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CryptocurrencyApp/Pods-CryptocurrencyApp-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -612,28 +584,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptocurrencyApp-CryptocurrencyAppTests/Pods-CryptocurrencyApp-CryptocurrencyAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB35D294DF0A3DECEA5AB016 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CryptocurrencyApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -824,7 +774,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE6A9DDB4D0EE368B69CEFE /* Pods-CryptocurrencyApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -852,7 +801,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D1BE72E399FDC720C5C380 /* Pods-CryptocurrencyApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -880,7 +828,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ADF82F205EEB5FC0818FD0D /* Pods-CryptocurrencyApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -907,7 +854,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39AAA63D6C46429D61B53B08 /* Pods-CryptocurrencyApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -937,7 +883,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -964,6 +910,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -982,12 +929,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -997,7 +945,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1024,6 +972,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1035,11 +984,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
